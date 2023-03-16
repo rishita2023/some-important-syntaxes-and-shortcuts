@@ -30,4 +30,6 @@
                else                       
                    return binarySearch(arr, x, low, mid - 1) 
                    
-                   
+               /* dp dimensions */    
+         int x[] = {0,0,1,-1};
+        int y[] = {1,-1,0,0};
